@@ -5,12 +5,10 @@ using namespace std;
 
 int main() {
 
-vector<double> d;
-d [0] = 5.2;
-vector<int> i;
-i[0] = 5;
-vector<string> s;
-s[0] = "Пять";
+vector<double> d {5.2};
+vector<int> i {5};
+vector<string> s {"Пять"};
+
 
 cout << d[0] << endl;
 cout << i[0] << endl;
